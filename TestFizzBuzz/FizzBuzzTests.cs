@@ -12,7 +12,7 @@ namespace TestFizzBuzz
         {
             int nombre = 3;
 
-            string resultat = FizzBuzz.IsFizzOrBuzz(nombre);
+            string resultat = FizzBuzz.JeuFizzBuzz(nombre);
 
             Assert.AreEqual("Fizz", resultat);
             
@@ -23,7 +23,7 @@ namespace TestFizzBuzz
         {
             int nombre = 5;
 
-            string resultat = FizzBuzz.IsFizzOrBuzz(nombre);
+            string resultat = FizzBuzz.JeuFizzBuzz(nombre);
 
             Assert.AreEqual("Buzz", resultat);
         }
@@ -32,7 +32,7 @@ namespace TestFizzBuzz
         {
             int nombre = 0;
 
-            string resultat = FizzBuzz.IsFizzOrBuzz(nombre);
+            string resultat = FizzBuzz.JeuFizzBuzz(nombre);
 
             Assert.AreEqual("Error", resultat);
         }
