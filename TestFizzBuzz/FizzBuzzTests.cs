@@ -36,5 +36,16 @@ namespace TestFizzBuzz
 
             Assert.AreEqual("Error", resultat);
         }
+        
+        [TestMethod]
+        public void ErrorSiNombreEstNegatif()
+        {
+            int nombre = -1;
+
+            string resultat = FizzBuzz.JeuFizzBuzz(nombre);
+
+            Assert.AreEqual("Error", resultat);
+        }
+
     }
 }
