@@ -21,8 +21,17 @@ namespace BaseFizzBuzz
             {
                 return null;
             }
-                
-
+        }
+        public static string IsBuzz(int nombre)
+        {
+            if (nombre == 5)
+            {
+                return "Buzz";
+            }
+            else
+            {
+                return null;
+            }
         }
     }
 }

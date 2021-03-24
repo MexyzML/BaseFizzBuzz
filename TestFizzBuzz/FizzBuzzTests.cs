@@ -23,7 +23,7 @@ namespace TestFizzBuzz
         {
             int nombre = 5;
 
-            string resultat = "";
+            string resultat = FizzBuzz.IsBuzz(nombre);
 
             Assert.AreEqual("Buzz", resultat);
 
