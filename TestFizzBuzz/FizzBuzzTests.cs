@@ -27,7 +27,14 @@ namespace TestFizzBuzz
 
             Assert.AreEqual("Buzz", resultat);
         }
+        [TestMethod]
+        public void ErrorSiNombreEgal0()
+        {
+            int nombre = 0;
 
-       
+            string resultat = FizzBuzz.IsFizzOrBuzz(nombre);
+
+            Assert.AreEqual("Error", resultat);
+        }
     }
 }
