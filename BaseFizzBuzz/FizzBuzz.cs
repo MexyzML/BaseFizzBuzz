@@ -4,12 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace BaseFizzBuzz
 {
-    class Program
+    public class FizzBuzz
     {
-        static void Main(string[] args)
-        {
-        }
+        
+        public static void Main() { }
+        
     }
 }
