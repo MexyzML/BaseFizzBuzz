@@ -7,16 +7,6 @@ namespace TestFizzBuzz
     [TestClass]
     public class FizzBuzzTests
     {
-        [TestMethod]
-        public void FizzSiNombreEgal3()
-        {
-            int nombre = 3;
-
-            string resultat = FizzBuzz.JeuFizzBuzz(nombre);
-
-            Assert.AreEqual("Fizz", resultat);
-            
-        }
 
         [TestMethod]
         public void BuzzSiNombreEgal5()
@@ -51,7 +41,7 @@ namespace TestFizzBuzz
         public void FizzSiMultipleDe3()
         {
 
-            int nombre = 6;
+            int nombre = 9;
 
             string resultat = FizzBuzz.JeuFizzBuzz(nombre);
 
