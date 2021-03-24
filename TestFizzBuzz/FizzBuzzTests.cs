@@ -12,7 +12,7 @@ namespace TestFizzBuzz
         {
             int nombre = 3;
 
-            string resultat = "";
+            string resultat = FizzBuzz.IsFizz(nombre);
 
             Assert.AreEqual("Fizz", resultat);
             
