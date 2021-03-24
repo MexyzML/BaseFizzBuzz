@@ -22,7 +22,7 @@ namespace BaseFizzBuzz
             {
                 return "Fizz";
             }
-            else if(nombre == 5)
+            else if(nombre%5 == 0)
             {
                 return "Buzz";
             }

@@ -9,15 +9,6 @@ namespace TestFizzBuzz
     {
 
         [TestMethod]
-        public void BuzzSiNombreEgal5()
-        {
-            int nombre = 5;
-
-            string resultat = FizzBuzz.JeuFizzBuzz(nombre);
-
-            Assert.AreEqual("Buzz", resultat);
-        }
-        [TestMethod]
         public void ErrorSiNombreEgal0()
         {
             int nombre = 0;
