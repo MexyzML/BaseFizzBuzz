@@ -11,20 +11,13 @@ namespace BaseFizzBuzz
     {
         public static void Main() { }
 
-        public static string IsFizz(int nombre)
+        public static string IsFizzOrBuzz(int nombre)
         {
             if (nombre == 3)
             {
                 return "Fizz";
             }
-            else
-            {
-                return null;
-            }
-        }
-        public static string IsBuzz(int nombre)
-        {
-            if (nombre == 5)
+            else if(nombre == 5)
             {
                 return "Buzz";
             }
