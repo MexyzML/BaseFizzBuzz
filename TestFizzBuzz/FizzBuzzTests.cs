@@ -17,5 +17,17 @@ namespace TestFizzBuzz
             Assert.AreEqual("Fizz", resultat);
             
         }
+
+        [TestMethod]
+        public void BuzzSiNombreEgal5()
+        {
+            int nombre = 5;
+
+            string resultat = "";
+
+            Assert.AreEqual("Buzz", resultat);
+
+        }
+
     }
 }
