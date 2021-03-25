@@ -18,7 +18,7 @@ namespace BaseFizzBuzz
             {
                 return "Error";
             }
-            else if (nombre == 15)
+            else if (nombre % 3 == 0 && nombre % 5 == 0)
             {
                 return "FizzBuzz";
             }
