@@ -59,8 +59,16 @@ namespace TestFizzBuzz
 
             Assert.AreEqual("FizzBuzz", resultat);
         }
+        [TestMethod]
+        public void FizzBuzzSiMultiple3et5()
+        {
 
-    
+            int nombre = 30;
+
+            string resultat = FizzBuzz.JeuFizzBuzz(nombre);
+
+            Assert.AreEqual("FizzBuzz", resultat);
+        }
 
     }
 }
