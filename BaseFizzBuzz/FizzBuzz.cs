@@ -32,7 +32,7 @@ namespace BaseFizzBuzz
             }
             else
             {
-                return null;
+                return nombre.ToString();
             }
         }
     }
