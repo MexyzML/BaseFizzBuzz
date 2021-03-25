@@ -9,11 +9,28 @@ namespace BaseFizzBuzz
 {
     public class FizzBuzz
     {
-        public static void Main() { }
+        static void Main(string[] args)
+        {
+            
+            while (true)
+            {
+
+
+                Console.WriteLine("Rentrez un nombre : ");
+                string entree = Console.ReadLine();
+                int nombre;
+                Int32.TryParse(entree, out nombre);
+
+                Console.WriteLine(JeuFizzBuzz(nombre));
+
+            }
+            
+        }
+
 
         public static string JeuFizzBuzz(int nombre)
         {
-            
+
             if (nombre <= 0)
             {
                 return "Error";

@@ -67,7 +67,7 @@ namespace TestFizzBuzz
 
             string resultat = FizzBuzz.JeuFizzBuzz(nombre);
 
-            Assert.AreEqual("19", resultat);
+            Assert.AreEqual(nombre.ToString(), resultat);
         }
     }
 }
