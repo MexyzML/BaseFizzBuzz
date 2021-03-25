@@ -49,5 +49,16 @@ namespace TestFizzBuzz
             Assert.AreEqual("Buzz", resultat);
         }
 
+        [TestMethod]
+        public void FizzBuzzSi15()
+        {
+
+            int nombre = 15;
+
+            string resultat = FizzBuzz.JeuFizzBuzz(nombre);
+
+            Assert.AreEqual("FizzBuzz", resultat);
+        }
+
     }
 }
