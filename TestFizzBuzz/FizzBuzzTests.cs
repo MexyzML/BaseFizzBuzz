@@ -59,6 +59,15 @@ namespace TestFizzBuzz
 
             Assert.AreEqual("FizzBuzz", resultat);
         }
+        [TestMethod]
+        public void RepeteSiAucunCasPrecedent()
+        {
 
+            int nombre = 19;
+
+            string resultat = FizzBuzz.JeuFizzBuzz(nombre);
+
+            Assert.AreEqual("19", resultat);
+        }
     }
 }
