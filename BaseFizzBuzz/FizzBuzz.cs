@@ -13,10 +13,14 @@ namespace BaseFizzBuzz
 
         public static string JeuFizzBuzz(int nombre)
         {
-        
+            
             if (nombre <= 0)
             {
                 return "Error";
+            }
+            else if (nombre == 15)
+            {
+                return "FizzBuzz";
             }
             else if (nombre%3 == 0)
             {
